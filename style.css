@@ -1,0 +1,42 @@
+*{
+            margin: 0px;
+        }
+        div{
+            border: 10px solid black;
+            height: 500px;
+            width: 500px;
+
+            position: relative;
+        }
+
+
+        .para{
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+          
+        }
+
+        #para1{
+            background-color: red;
+            /* position: relative; */
+
+            position: absolute;
+            /* left: 100px; */
+            /* top: 100px; */
+
+            /* right: 50px; */
+            /* bottom: 10px; */
+
+            /* z-index: 15; */
+
+        }
+
+        #para2{
+            background-color: blue;
+            height: 150px;
+            width: 150px;
+            position: absolute;
+
+            /* z-index: 12 ; */
+        }
